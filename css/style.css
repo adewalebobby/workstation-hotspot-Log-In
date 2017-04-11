@@ -119,3 +119,19 @@ body {
   background-color: black;
   color: #ffdd6c;
 }
+
+.login .login-content .footer {
+  text-align: center;
+  font-size: 16px;
+  font-weight: light;
+  position: absolute;
+  bottom: 50px;
+  margin-left: 20px;
+}
+
+.login .login-content .footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
