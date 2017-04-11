@@ -116,5 +116,21 @@ body {
 				}
 		
 		}
+
+		.footer {
+			text-align: center;
+			font-size: 16px;
+			font-weight: light;
+			position: absolute;
+			bottom: 50px;
+			margin-left: 20px;
+
+			a {
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+				cursor: pointer;
+			}
+		}
 	}
 }
