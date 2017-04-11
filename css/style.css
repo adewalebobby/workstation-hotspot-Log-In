@@ -1,0 +1,64 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+.hero-image img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.login {
+  position: absolute;
+  top: 0px;
+  background-color: white;
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.login .login-content {
+  padding: 100px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  width: 240px;
+}
+
+.login .login-content .login-logo {
+  position: center;
+  display: inline;
+}
+
+.login .login-content .login-logo a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 80px;
+}
+
+.login .login-content .login-logo img {
+  width: 160px;
+  vertical-align: middle;
+  margin: 0 0 0 20px;
+}
+
+.login .login-content .login-header {
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+}

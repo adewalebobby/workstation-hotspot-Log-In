@@ -1,0 +1,61 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+
+.hero-image {
+	img {
+	object-fit: cover;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	}
+}
+
+.login {
+	
+	position: absolute;
+	top: 0px;
+	background-color: white;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+
+	.login-content{
+		padding: 100px;
+		align-self: center;
+		width: 240px;
+
+		.login-logo{
+			position: center;
+			display: inline;
+
+			a { color: #000;
+				text-decoration: none;
+				text-align: center;
+				cursor: pointer;
+				position: absolute;
+				top: 80px;
+
+			}
+
+			img{
+				width:160px;
+				vertical-align: middle;
+				margin: 0 0 0 20px; 
+			
+
+			}
+		}
+
+		.login-header {
+			text-align: center;
+			font-size: 18px;
+			font-weight: lighter;
+		}
+	}
+}
