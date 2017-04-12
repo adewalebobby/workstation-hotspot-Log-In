@@ -1,21 +1,17 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	margin: 0 auto;
-	/*
-	background-image: url(/img/hero-image.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-	position: absolute;
-	left: 0;
-	top: 0;
 	height: 100%;
-	width: 100%;
-	*/
+	margin: 0 auto;
 
+	background-image: url(/img/hero-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;	
 }
 
-
+/*
 .hero-image {
 	img {
 	object-fit: cover;
@@ -26,10 +22,12 @@ body {
 	left: 0;
 	}
 }
-
+*/
+.container {
+	overflow: hidden;
+}
 .login {
 	
-	position: absolute;
 	top: 0px;
 	background-color: white;
 	height: 100%;
@@ -37,7 +35,8 @@ body {
 	justify-content: center;
 	align-content: center;
 	width: 30%;
-	min-width: 480px;
+	min-width: 320px;
+	position: relative;
 
 
 	.login-content{
@@ -54,14 +53,16 @@ body {
 				text-align: center;
 				cursor: pointer;
 				position: absolute;
-				top: 80px;
+				left: 50%;
+				transform: translateX(-50%);
+				top: 50px;
 
 			}
 
 			img{
 				width:160px;
 				vertical-align: middle;
-				margin: 0 0 0 50px; 
+				margin: 0 auto; 
 			
 
 			}
